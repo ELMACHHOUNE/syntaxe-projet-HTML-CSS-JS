@@ -1,0 +1,77 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  background: #f0f2f5;
+  color: #1c1e21;
+  padding-bottom: 80px;
+}
+nav {
+  background: #1877f2;
+  padding: 0.5rem 0;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  margin: 0 1rem;
+}
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+nav ul li a:hover {
+  color: #42b72a;
+}
+main {
+  max-width: 700px;
+  margin: 2rem auto;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  padding: 2rem;
+  color: #1c1e21;
+}
+main h1 {
+  text-align: center;
+  color: #1877f2;
+}
+.mission, .history, .team {
+  margin-bottom: 2rem;
+}
+.mission h2, .history h2, .team h2 {
+  color: #1877f2;
+  margin-bottom: 0.5rem;
+}
+.team ul {
+  list-style: none;
+  padding: 0;
+}
+.team li {
+  margin-bottom: 0.5rem;
+}
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  background: #1877f2;
+  color: #fff;
+  margin-top: 2rem;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 100;
+}
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+  }
+  main {
+    padding: 1rem;
+  }
+}
